@@ -1,93 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TLMO's Projects</title>
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="/css/framework.css">
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="/css/framework.css" />
+    <link rel="stylesheet" href="/css/main.css" />
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=DM+Serif+Text:ital@0;1&family=Lalezar&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-</head>
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=DM+Serif+Text:ital@0;1&family=Lalezar&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-
-<body>
+  <body>
     <div class="page d-flex">
-        <div class="sidebar bg-white p-20 p-relative">
-            <div class="image p-relative mt-0"><img src="/imgs/TLMO BACKGROUND.png" alt=""></div>
-            <ul>
-                <li>
-                    <a class="d-flex aligne-center fs-14 c-black rad-6 p-10" href="index.html">
-                        <i class="fa-solid fa-house fa-fw"></i>
-                        <span>Dashboard</span>
-                    </a>
-                </li>
-                <li>
-            <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="settings.html">
+      <div class="sidebar bg-white p-20 p-relative">
+        <div class="image p-relative mt-0">
+          <img src="/imgs/TLMO BACKGROUND.png" alt="" />
+        </div>
+        <ul>
+          <li>
+            <a
+              class="d-flex aligne-center fs-14 c-black rad-6 p-10"
+              href="index.html"
+            >
+              <i class="fa-solid fa-house fa-fw"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="settings.html"
+            >
               <i class="fa-solid fa-gear fa-fw"></i>
               <span>Settings</span>
             </a>
           </li>
           <li>
-            <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="profile.html">
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="profile.html"
+            >
               <i class="fa-regular fa-user fa-fw"></i>
               <span>Profile</span>
             </a>
           </li>
           <li>
-            <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="projects.html">
+            <a
+              class="active d-flex align-center fs-14 c-black rad-6 p-10"
+              href="projects.html"
+            >
               <i class="fa-solid fa-diagram-project fa-fw"></i>
               <span>Projects</span>
             </a>
           </li>
           <li>
-            <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="courses.html">
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="courses.html"
+            >
               <i class="fa-solid fa-graduation-cap fa-fw"></i>
               <span>Courses</span>
             </a>
           </li>
-         
+
           <li>
-            <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="files.html">
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="files.html"
+            >
               <i class="fa-regular fa-file fa-fw"></i>
               <span>Files</span>
             </a>
           </li>
-          
-            </ul>
+        </ul>
+      </div>
+
+      <div class="content w-full">
+        <div class="head bg-white p-15 space-between-flex-pkg">
+          <div class="search p-relative">
+            <input class="p-10" type="search" placeholder="Search Here" />
+          </div>
+          <div class="icons d-flex align-center">
+            <span class="notfication p-relative">
+              <i class="fa-regular fa-bell fa-lg"></i>
+            </span>
+            <img class="rad-half" src="imgs/profile.png" alt="" />
+          </div>
         </div>
 
-        <div class="content w-full">
-            <div class="head bg-white p-15 space-between-flex-pkg">
-                <div class="search p-relative">
-                    <input class="p-10" type="search" placeholder="Search Here">
-                </div>
-                <div class="icons d-flex align-center ">
-                    <span class="notfication p-relative">
-                        <i class="fa-regular fa-bell fa-lg"></i>
-                    </span>
-                    <img class="rad-half" src="imgs/profile.png" alt="">
-                </div>
-            </div>
-
-            <h1 class="p-relative">Projects</h1>
+        <h1 class="p-relative">Projects</h1>
         <div class="projects-page d-grid m-20 gap-20">
           <div class="project bg-white p-20 rad-6 p-relative">
             <span class="date fs-13 c-grey">21/9/2025</span>
             <h4 class="m-0">TLMO's Dashboard</h4>
-            <p class="c-grey mt-10 mb-10 fs-14">TLMO's Dashboard Project Design And Programming And Hosting</p>
+            <p class="c-grey mt-10 mb-10 fs-14">
+              TLMO's Dashboard Project Design And Programming And Hosting
+            </p>
             <div class="team">
-              <a href="#"><img decoding="async" src="imgs/profile.png" alt="" /></a>
-              <a href="#"><img decoding="async" src="imgs/team-03.png" alt="" /></a>
-              <a href="#"><img decoding="async" src="imgs/team-02.png" alt="" /></a>
-
+              <a href="#"
+                ><img decoding="async" src="imgs/profile.png" alt=""
+              /></a>
+              <a href="#"
+                ><img decoding="async" src="imgs/team-03.png" alt=""
+              /></a>
+              <a href="#"
+                ><img decoding="async" src="imgs/team-02.png" alt=""
+              /></a>
             </div>
             <div class="do d-flex">
               <span class="fs-13 rad-6 bg-eee">Programming</span>
@@ -108,9 +133,13 @@
           <div class="project bg-white p-20 rad-6 p-relative">
             <span class="date fs-13 c-grey">1/10/2026</span>
             <h4 class="m-0">FCDS-Material V2.0</h4>
-            <p class="c-grey mt-10 mb-10 fs-14">FCDS Material Website To Help Students Reach the Content Easily</p>
+            <p class="c-grey mt-10 mb-10 fs-14">
+              FCDS Material Website To Help Students Reach the Content Easily
+            </p>
             <div class="team">
-              <a href="#"><img decoding="async" src="imgs/profile.png" alt="" /></a>
+              <a href="#"
+                ><img decoding="async" src="imgs/profile.png" alt=""
+              /></a>
             </div>
             <div class="do d-flex">
               <span class="fs-13 rad-6 bg-eee">Programming</span>
@@ -120,20 +149,28 @@
               <div class="prog bg-eee">
                 <span class="bg-red" style="width: 20%"></span>
               </div>
-              <div class="fs-14 c-grey">
-                Free
-              </div>
+              <div class="fs-14 c-grey">Free</div>
             </div>
           </div>
           <div class="project bg-white p-20 rad-6 p-relative">
             <span class="date fs-13 c-grey">15/6/2025</span>
             <h4 class="m-0">Chatting Application</h4>
-            <p class="c-grey mt-10 mb-10 fs-14">Chatting Application Project Design</p>
+            <p class="c-grey mt-10 mb-10 fs-14">
+              Chatting Application Project Design
+            </p>
             <div class="team">
-              <a href="#"><img decoding="async" src="imgs/profile.png" alt="" /></a>
-              <a href="#"><img decoding="async" src="imgs/team-01.png" alt="" /></a>
-              <a href="#"><img decoding="async" src="imgs/team-02.png" alt="" /></a>
-              <a href="#"><img decoding="async" src="imgs/team-03.png" alt="" /></a>
+              <a href="#"
+                ><img decoding="async" src="imgs/profile.png" alt=""
+              /></a>
+              <a href="#"
+                ><img decoding="async" src="imgs/team-01.png" alt=""
+              /></a>
+              <a href="#"
+                ><img decoding="async" src="imgs/team-02.png" alt=""
+              /></a>
+              <a href="#"
+                ><img decoding="async" src="imgs/team-03.png" alt=""
+              /></a>
             </div>
             <div class="do d-flex">
               <span class="fs-13 rad-6 bg-eee">Design</span>
@@ -151,9 +188,13 @@
           <div class="project bg-white p-20 rad-6 p-relative">
             <span class="date fs-13 c-grey">25/6/2022</span>
             <h4 class="m-0">FCDS Simple-Remake</h4>
-            <p class="c-grey mt-10 mb-10 fs-14">A Simple-Remake Of The Official Website Of FCDS</p>
+            <p class="c-grey mt-10 mb-10 fs-14">
+              A Simple-Remake Of The Official Website Of FCDS
+            </p>
             <div class="team">
-              <a href="#"><img decoding="async" src="imgs/profile.png" alt="" /></a>
+              <a href="#"
+                ><img decoding="async" src="imgs/profile.png" alt=""
+              /></a>
             </div>
             <div class="do d-flex">
               <span class="fs-13 rad-6 bg-eee">Programming</span>
@@ -173,11 +214,18 @@
           </div>
           <div class="project bg-white p-20 rad-6 p-relative">
             <span class="date fs-13 c-grey">8/10/2025</span>
-            <h4 class="m-0">Kaer-Morhen Cafe V1.0	</h4>
-            <p class="c-grey mt-10 mb-10 fs-14">Witcher's Favourite Place to Get A Nice Drink Before Doing Some Contracts</p>
+            <h4 class="m-0">Kaer-Morhen Cafe V1.0</h4>
+            <p class="c-grey mt-10 mb-10 fs-14">
+              Witcher's Favourite Place to Get A Nice Drink Before Doing Some
+              Contracts
+            </p>
             <div class="team">
-              <a href="#"><img decoding="async" src="imgs/profile.png" alt="" /></a>
-              <a href="#"><img decoding="async" src="imgs/geralt.png" alt="" /></a>
+              <a href="#"
+                ><img decoding="async" src="imgs/profile.png" alt=""
+              /></a>
+              <a href="#"
+                ><img decoding="async" src="imgs/geralt.png" alt=""
+              /></a>
             </div>
             <div class="do d-flex">
               <span class="fs-13 rad-6 bg-eee">Programming</span>
@@ -195,11 +243,18 @@
           </div>
           <div class="project bg-white p-20 rad-6 p-relative">
             <span class="date fs-13 c-grey">??/??/2077</span>
-            <h4 class="m-0">After-Life Cafe	</h4>
-            <p class="c-grey mt-10 mb-10 fs-14">Nothing Beats a watermelon juice at After-Life Cafe Where All legends go to take a break</p>
+            <h4 class="m-0">After-Life Cafe</h4>
+            <p class="c-grey mt-10 mb-10 fs-14">
+              Nothing Beats a watermelon juice at After-Life Cafe Where All
+              legends go to take a break
+            </p>
             <div class="team">
-              <a href="#"><img decoding="async" src="imgs/profile.png" alt="" /></a>
-              <a href="#"><img decoding="async" src="imgs/johnny.jpg" alt="" /></a>
+              <a href="#"
+                ><img decoding="async" src="imgs/profile.png" alt=""
+              /></a>
+              <a href="#"
+                ><img decoding="async" src="imgs/johnny.jpg" alt=""
+              /></a>
             </div>
             <div class="do d-flex">
               <span class="fs-13 rad-6 bg-eee">Design</span>
@@ -217,6 +272,5 @@
         </div>
       </div>
     </div>
-            
-    
-</body>
+  </body>
+</html>
